@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav-center{
+    height:100%;
+    width:100%;
+    box-shadow: 4px 4px 8px 8px #dad7cd;
+}
+ body{
+    position:absolute;
+    left:400px;
+    top:200px;
+ }
+.fa-bars{
+    color:#00b4d8;
+ }
+.nav-header{
+    display:flex;
+}
+.logo{
+    margin-right:500px;
+}
+.nav-toggle{
+    width:40px;
+    height:40px;
+    font-size:30px;
+    border:none;
+    transition: transform 0.3s ease-in-out;
+}
+.links {
+    list-style-type: none;
+    display: none; /* Hide the links by default */
+    padding: 0;
+    margin: 0;
+}
+
+.links.show-links {
+    display: block; /* Show links when this class is added */
+}
+#home,#about,#project,#contact{
+    text-decoration: none;
+    font-size:large;
+    color:#778da9;
+    font-size:30px;
+} 
+#home:hover{
+    text-decoration: underline;
+}
+#about:hover{
+    text-decoration: underline;
+}
+#project:hover{
+    text-decoration: underline;
+}
+#contact:hover{
+    text-decoration: underline;
+}
+.links li{
+margin-top:30px;
+}
+.social-icons {
+    display:flex;
+    list-style-type: none;
+    margin-left:8em;
+}
+.social-icons li {
+    margin:5px;
+    margin-top:10em;
+}
+.social-icons li a{
+    color:#00b4d8;
+}
+button:hover{ 
+    transform: rotate(90deg);
+}
